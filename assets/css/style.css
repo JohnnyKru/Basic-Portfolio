@@ -1,7 +1,19 @@
+
 body{
 	 background: white;
 }
+h1 {
+	font-size: 25px;
+	
+}
+p, li{
+   font-size: 16px;
+   font-weight: 20px;
+   line-height: 15px;
+   letter-spacing:5px;
+   font-family: 'Raleway', sans-serif;
 
+}
 .header{
 	position:relative;
 	width: 100%;
@@ -39,31 +51,41 @@ li a:hover {
     background-color: #111;
 }
 .section{
-	position: relative;
 	width: 100%;
-	height:800px;
-	background:white;
-	overflow: scroll;
+	height: 800px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url("https://images6.alphacoders.com/368/thumb-1920-368992.jpg");
+
 }
 .article{
 	position: relative;
 	top: 10px;
 	left: 10px;
 	width: 400px;
-	height:600px;
+	height:800px;
 	padding: 15px;
 	 background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); 
 }
 .aside{
 	position:absolute;
-	top: 0px;
+	top: 150px;
 	left: 640px;
 	width: 300px;
-	height:600px;
+	height:800px;
 	padding: 15px;
 	overflow: scroll;
 	
+}
+.geekout{
+	position: relative;
+	top: 10px;
+	left: 600px;
+	width: 400px;
+	height: 200px;
 }
 .footer{
 	bottom: 0px;
